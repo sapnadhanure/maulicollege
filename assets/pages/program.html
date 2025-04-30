@@ -493,6 +493,20 @@
       const table = document.getElementById("syllabusTable");
       table.style.display = (table.style.display === "none") ? "table" : "none";
     }
+
+    // toggle accordien funcationlity
+    function toggleSyllabus(element) {
+      const list = element.querySelector('.syllabus-list');
+      const isVisible = list.style.display === 'block';
+
+      // Close all lists
+      document.querySelectorAll('.syllabus-list').forEach(el => el.style.display = 'none');
+
+      // Toggle clicked one
+      if (!isVisible) {
+        list.style.display = 'block';
+      }
+    }
   </script>
 
   <script src="script.js"></script>
