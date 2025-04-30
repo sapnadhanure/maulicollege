@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mauli Yoga College</title>
+  
+  <!-- Favicon Tags -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mauli Yoga College | Yoga Teacher Training & Wellness Education</title>
+  <meta name="description" content="Mauli Yoga College offers comprehensive yoga teacher training programs, wellness courses, and holistic education to nurture mind, body, and spirit.">
+  <meta name="keywords" content="yoga college, yoga teacher training, yoga certification, wellness education, holistic health, meditation, mindfulness, yoga classes">
+  <meta name="author" content="Mauli Yoga College">
+
+  <!-- Open Graph Meta Tags for Social Media -->
+  <meta property="og:title" content="Mauli Yoga College | Yoga Teacher Training & Wellness Education">
+  <meta property="og:description" content="Transform your practice and career with our comprehensive yoga teacher training programs and wellness courses.">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mauli Yoga College">
+  <meta name="twitter:description" content="Transform your practice and career with our comprehensive yoga teacher training programs and wellness courses.">
+  <!-- <meta name="twitter:image" content="https://www.mauliyogacollege.com/images/twitter-image.jpg"> -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css">
+</head>
+
+<body>
+
+   <!-- Header with Logo and Mobile Menu Button -->
+   <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <img src="./assets/img/logo.jpeg" alt="Mauli College Logo" class="logo-img">
+          <div class="logo-text">MAULI (YOGSHASTRA) COLLEGE</div>
+        </div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Desktop Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" id="nav-home">Home</a></li>
+      <li><a href="./assets/pages/about.html" id="nav-about">About Us</a></li>
+      <li><a href="program.html" id="nav-program">Program</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="nav-academic">Academic</a>
+        <div class="dropdown-content">
+          <a href="./assets/pages/academic.html" id="nav-syllabus">Syllabus</a>
+          <a href="./assets/pages/courses.html" id="nav-courses">Course</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="nav-students">Students Corner</a>
+        <div class="dropdown-content">
+          <a href="./assets/pages/students.html" id="nav-council">Students Council</a>
+          <a href="./assets/pages/gallery.html" id="nav-gallery">Gallery</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn" id="nav-iqac">IQAC</a>
+        <div class="dropdown-content">
+          <a href="./assets/pages/iqac.html" id="nav-committee">IQAC Committee</a>
+          <a href="./assets/pages/curriculam.html" id="nav-curriculum">Curriculam Committee</a>
+          <a href="./assets/pages/anti.html" id="nav-anti">Anti-Ragging Committee</a>
+        </div>
+      </li>
+      <li><a href="./assets/pages/facility.html" id="nav-facility">College Facilities</a></li>
+      <li><a href="./assets/pages/contact.html" id="nav-contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Off-Canvas Menu (Mobile) -->
+  <div class="offcanvas-menu" id="offcanvasMenu">
+    <div class="offcanvas-header">
+      <div class="mobile-logo">
+        <img src="./assets/img/logo.jpeg" alt="Mauli College Logo" class="mobile-logo-img">
+        <h3>Mauli College</h3>
+      </div>
+      <button class="close-menu" id="closeMenu">×</button>
+    </div>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="index.html" id="mobile-home">Home</a></li>
+        <li><a href="./assets/pages/about.html" id="mobile-about">About Us</a></li>
+        <li><a href="./assets/pages/program.html" id="mobile-program">Program</a></li>
+        <li>
+          <a href="#" id="mobile-academic">Academic</a>
+          <button class="submenu-toggle">+</button>
+          <div class="mobile-dropdown">
+            <a href="./assets/pages/academic.html" id="mobile-syllabus">Syllabus</a>
+            <a href="./assets/pages/courses.html" id="mobile-courses">Course</a>
+          </div>
+        </li>
+        <li>
+          <a href="#" id="mobile-students">Students Corner</a>
+          <button class="submenu-toggle">+</button>
+          <div class="mobile-dropdown">
+            <a href="./assets/pages/students.html" id="mobile-council">Students Council</a>
+            <a href="./assets/pages/gallery.html" id="mobile-gallery">Gallery</a>
+          </div>
+        </li>
+        <li>
+          <a href="#" id="mobile-iqac">IQAC</a>
+          <button class="submenu-toggle">+</button>
+          <div class="mobile-dropdown">
+            <a href="./assets/pages/iqac.html" id="mobile-committee">IQAC Committee</a>
+            <a href="./assets/pages/curriculam.html" id="mobile-curriculum">Curriculam Committee</a>
+            <a href="./assets/pages/anti.html" id="mobile-anti">Anti-Ragging Committee</a>
+          </div>
+        </li>
+        <li><a href="./assets/pages/facility.html" id="mobile-facility">College Facilities</a></li>
+        <li><a href="./assets/pages/contact.html" id="mobile-contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Main Slideshow Section -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide" style="background-image: url('./assets/img/Web_Photo_Editor.jpg');">
+        <div class="text">Breathe. Relax. Transform.</div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('./assets/img/sunny.jpg');">
+        <div class="text">Empowering Mind & Body</div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('./assets/img/yogi5.png');">
+        <div class="text">Join the Journey of Wellness</div>
+      </div>
+      <div class="swiper-slide" style="background-image: url('./assets/img/yogi9.png');">
+        <div class="text">The gift of learning to meditate is the greatest gift you can give yourself in this lifetime.</div>
+      </div>
+    </div>
+    
+    <!-- Navigation buttons -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- Progress bar -->
+    <div class="autoplay-progress">
+      <svg viewBox="0 0 48 48">
+        <circle cx="24" cy="24" r="20"></circle>
+      </svg>
+      <span></span>
+    </div>
+  </div>
+  
+  <section class="testimonial-sections">
+    <div class="slider-container">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-containers">
+          <div class="image-box">
+            <img src="./assets/img/pritiware.jpeg" alt="Dr. Priti Ware" loading="lazy">
+          </div>
+          <div class="quote-box">
+            <div class="quote-symbol-top">
+              <h1>President's Message</h1>
+            </div>
+            <p class="quote-text">
+              Welcome to the B.A. Yogashastra Course, a bold step toward personal growth, professional opportunity, and
+              inner transformation. At Mauli Yoga College, we believe that yoga is not just about poses. It's a powerful system of wellness,
+              discipline, and leadership. Our program gives you a deep academic grounding in Yogic
+              philosophy, Sanskrit literature, anatomy, and holistic health, while also encouraging practical innovation and
+              global thinking.
+            </p><br>
+            <p class="quote-text">
+              Whether your path leads you to teach, research, heal, or simply grow, this Course empowers you to find your
+              voice, hone your practice, and serve society with authenticity.
+              You are the future of yoga. Let's shape it together — with knowledge, compassion, and purpose.
+            </p><br>
+            <p class="quote-author">
+              <span class="hover-effect">- Dr. Priti Ware-Dhakne (MD.Ayurveda)</span><br>
+              <span style="font-weight: normal; font-size: 0.9rem; color: #666;">President, Mauli Yoga College</span>
+            </p>
+          </div>
+        </div>
+      </section>
+        
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <div class="footer-logo">
+                    <img src="./assets/img/logo.jpeg" alt="Mauli College Logo">
+                    <h2>Mauli College</h2>
+                </div>
+                <p class="about-text">Empowering minds and shaping futures since 1985. Our mission is to provide quality education that prepares students for the challenges of tomorrow.</p>
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i>f</i></a>
+                    <a href="#" title="Instagram"><i>i</i></a>
+                    <a href="#" title="LinkedIn"><i>l</i></a>
+                </div>
+            </div>
+
+            <div class="footer-section quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                    <li><a href="#">Research</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section resources">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Student Portal</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Career Services</a></li>
+                    <li><a href="#">Financial Aid</a></li>
+                    <li><a href="#">Events Calendar</a></li>
+                    <li><a href="#">Alumni Network</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <p><i>📍</i> Rohanwadi, Jalna</p>
+                    <p><i>📞</i> +91-8459510445</p>
+                    <p><i>✉️</i> info@maulicollege.edu</p>
+                    <p><i>🕒</i> Mon - Fri: 8:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Mauli College. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+  <!-- page loader -->
+    <div class="mauli-preloader">
+      <div class="mauli-logo">
+          <div class="mauli-ring mauli-outer"></div>
+          <div class="mauli-ring mauli-inner">
+            <img src="./assets/img/logo.jpeg" alt="logo" style="max-width: 200px; border-radius: 200px;">
+          </div>
+      </div>
+      <div class="mauli-progress">
+          <div class="mauli-bar"></div>
+      </div>
+      <div class="mauli-text">Loading...</div>
+  </div>
+  <!-- / page loader -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"></script>
+
+  <script src="./assets/script/script.js"></script>
+  <script>
+     // Simulate loading time
+     window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.body.classList.add('mauli-loaded');
+            }, 3000);
+        });
+  </script>
+</body>
+
+</html>
