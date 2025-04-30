@@ -488,6 +488,11 @@
     }
 
     setDemoActivePage('program');
+
+    function toggleTable() {
+      const table = document.getElementById("syllabusTable");
+      table.style.display = (table.style.display === "none") ? "table" : "none";
+    }
   </script>
 
   <script src="script.js"></script>
